@@ -1,0 +1,5 @@
+{
+  "version": "v2.0",
+  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.0/Codex-Manager-Setup-2.0.exe",
+  "notes": "- First public release: native Qt rewrite of the Codex chat manager, in-app updates."
+}
