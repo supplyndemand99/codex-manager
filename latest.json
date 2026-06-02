@@ -1,5 +1,5 @@
 {
   "version": "v2.0",
   "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.0/Codex-Manager-Setup-2.0.exe",
-  "notes": "- First public release: native Qt rewrite of the Codex chat manager, in-app updates."
+  "notes": "- First public release \u2014 native Qt (PySide6) rewrite of the Codex chat manager.\n- Real conversation names, project grouping, move / delete / restore, smart Restart-Codex button (red when a restart is needed), 5 swappable themes, and in-app updates.\n- Fix: deleting chats no longer errors with \"no such table: thread_goals\" \u2014 Codex moved that table to goals_1.sqlite; it's now cleaned, backed up, and restorable."
 }
