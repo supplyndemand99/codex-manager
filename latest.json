@@ -1,5 +1,5 @@
 {
   "version": "v2.1",
   "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1/Codex-Manager-Setup-2.1.exe",
-  "notes": "- Fix: deleting chats no longer errors with \"no such table: thread_goals\" \u2014 Codex moved that table to goals_1.sqlite; it's now cleaned, backed up, and restorable.\n- Fix: the update check now cache-busts the manifest fetch, so a freshly published release is detected immediately instead of being hidden by GitHub's ~5-minute raw-CDN cache."
+  "notes": "- Fix: deleting chats no longer errors with \"no such table: thread_goals\" \u2014 Codex moved that table to goals_1.sqlite; it's now cleaned, backed up, and restorable.\n- Fix: the update check now cache-busts the manifest fetch, so a freshly published release is detected immediately instead of being hidden by GitHub's ~5-minute raw-CDN cache.\n- Hardening: browser fallback if an in-app update download fails; atomic config writes; UPX disabled on the build (fewer AV false-positives, faster startup)."
 }
