@@ -1,5 +1,5 @@
 {
-  "version": "v2.1.4",
-  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.4/Codex-Manager-Setup-2.1.4.exe",
-  "notes": "Sidebar-only cached tasks now use titles recovered from backup metadata, matching Codex instead of appearing as untitled. Backup title recovery never restores deleted conversation files or database rows. Includes the complete sidebar-remnant deletion fix."
+  "version": "v2.1.5",
+  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.5/Codex-Manager-Setup-2.1.5.exe",
+  "notes": "Selected tasks are now archived and permanently deleted through Codex's native task service, so they stay gone after the sidebar refreshes.\n\nIf an older manager version already removed a rollout file, the manager stages its backup only long enough for Codex to complete the supported deletion.\n\nExisting local database, cache, and file cleanup remains as a final residue safeguard after Codex confirms the delete."
 }
