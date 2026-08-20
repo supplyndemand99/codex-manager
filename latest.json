@@ -1,5 +1,5 @@
 {
-  "version": "v2.1.1",
-  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.1/Codex-Manager-Setup-2.1.1.exe",
-  "notes": "Test release to verify in-app updates."
+  "version": "v2.1.2",
+  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.2/Codex-Manager-Setup-2.1.2.exe",
+  "notes": "Fixed chat deletion on current Codex desktop releases. Codex now closes briefly before delete or restore and reopens afterward, preventing stale history from being written back. Added backup, delete, and restore support for current history, memory, queue, and goal databases."
 }
