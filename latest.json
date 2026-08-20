@@ -1,5 +1,5 @@
 {
-  "version": "v2.1.3",
-  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.3/Codex-Manager-Setup-2.1.3.exe",
-  "notes": "Sidebar-only cached tasks now appear in the manager, matching what Codex shows. Deletion removes encoded cache keys and task-binding values, so remnants from incomplete deletions can be selected and removed."
+  "version": "v2.1.4",
+  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.4/Codex-Manager-Setup-2.1.4.exe",
+  "notes": "Sidebar-only cached tasks now use titles recovered from backup metadata, matching Codex instead of appearing as untitled. Backup title recovery never restores deleted conversation files or database rows. Includes the complete sidebar-remnant deletion fix."
 }
