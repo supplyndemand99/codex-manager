@@ -1,5 +1,5 @@
 {
-  "version": "v2.1.5",
-  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.5/Codex-Manager-Setup-2.1.5.exe",
-  "notes": "Selected tasks are now archived and permanently deleted through Codex's native task service, so they stay gone after the sidebar refreshes.\n\nIf an older manager version already removed a rollout file, the manager stages its backup only long enough for Codex to complete the supported deletion.\n\nExisting local database, cache, and file cleanup remains as a final residue safeguard after Codex confirms the delete."
+  "version": "v2.1.6",
+  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.6/Codex-Manager-Setup-2.1.6.exe",
+  "notes": "Scheduled automation runs now appear in History Manager with their Codex title, project, date, and active or archived state.\n\nDeleting a run removes it from Codex's dedicated automation sidebar store as well as deleting any underlying task data that still exists.\n\nAutomation history is included in backups and can be restored; deleting run history does not disable or alter the automation schedule itself."
 }
