@@ -1,5 +1,5 @@
 {
-  "version": "v2.1.2",
-  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.2/Codex-Manager-Setup-2.1.2.exe",
-  "notes": "Fixed chat deletion on current Codex desktop releases. Codex now closes briefly before delete or restore and reopens afterward, preventing stale history from being written back. Added backup, delete, and restore support for current history, memory, queue, and goal databases."
+  "version": "v2.1.3",
+  "download_url": "https://github.com/supplyndemand99/codex-manager/releases/download/v2.1.3/Codex-Manager-Setup-2.1.3.exe",
+  "notes": "Sidebar-only cached tasks now appear in the manager, matching what Codex shows. Deletion removes encoded cache keys and task-binding values, so remnants from incomplete deletions can be selected and removed."
 }
